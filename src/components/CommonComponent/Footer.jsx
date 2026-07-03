@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import logo from "/MainLogo.jpeg";
 
 function Footer() {
   const footerContainer = {
@@ -40,9 +41,10 @@ function Footer() {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-14">
             {/* Brand */}
             <motion.div variants={footerItem}>
-              <h2 className="text-3xl font-light tracking-wide">
+              {/* <h2 className="text-3xl font-light tracking-wide">
                 Build with <br /> &nbsp; &nbsp;<span className="font-semibold">The NorthStar Syndicate</span>
-              </h2>
+              </h2> */}
+              <img src={logo} alt="Logo of Ournsfas" className="md:w-40 w-20" />
 
               <p className="text-gray-400 text-sm leading-7 mt-6 max-w-sm">
                 Building long-term value through innovation, strategic
@@ -60,7 +62,7 @@ function Footer() {
                 {[
                   { label: "Home", to: "/" },
                   { label: "About Us", to: "/about-us" },
-                 
+
                 ].map((item) => (
                   <li key={item.label}>
                     <Link
@@ -75,7 +77,7 @@ function Footer() {
             </motion.div>
 
             {/* Resources */}
-          
+
             {/* Contact */}
             <motion.div variants={footerItem}>
               <h3 className="text-lg font-medium mb-8">

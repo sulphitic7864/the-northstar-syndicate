@@ -4,31 +4,19 @@ import { FiPlay } from "react-icons/fi";
 
 const items = [
   {
-    title: "Relentlessly pursue excellence",
+    title: "Deliver for Our Clients",
     description:
-      "We strive to be the best at what we do, applying our global talent and scale to generate compelling outcomes for our clients.",
+      "We posses a relentless drive to deliver for our Colocation and Hyperscale clients to make sure there is no latency issues in our Data Centers.",
   },
   {
-    title: "Never compromise integrity",
+    title: "Outperformance",
     description:
-      "We adhere to the highest standards of integrity, maintaining and deepening our clients’ trust.",
+      "Our goal is to outperform the market by delivering competitive rent to our clients.",
   },
   {
-    title: "Outperform through innovation",
+    title: "Optimal Quality of Client Servicing",
     description:
-      "We approach our work with a builder mindset, creating new opportunities through innovation and entrepreneurialism.",
-  },
-
-  {
-    title: "Deliver for our customers",
-    description:
-      "We are meticulous custodians of capital, deploying it when we have conviction that we can deliver lasting value.",
-  },
-
-  {
-    title: "Work humbly, work together",
-    description:
-      "We build teams of extraordinary professionals with a diverse breadth of backgrounds and experiences who advocate for the best ideas and celebrate each other’s wins.",
+      "Every client of ours will feel noticed in their concerns and we will respond as fast as we can to ensure quality is not compromised.",
   },
 ];
 

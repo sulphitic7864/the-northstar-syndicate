@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-// import logo from "/logo.png";
+import logo from "/MainLogo.jpeg";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { FaRegUserCircle } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
@@ -45,10 +45,10 @@ export default function Navbar() {
       >
         <motion.div variants={logoVariants} initial="hidden" animate="visible">
           <Link to="/">
-            <h2 className="text-white text-3xl font-bold  capitalize ">
+            {/* <h2 className="text-white text-3xl font-bold  capitalize ">
               The NorthStar Syndicate
-            </h2>
-            {/* <img src={logo} alt="Logo of Ournsfas" className="md:w-40 w-20" /> */}
+            </h2> */}
+            <img src={logo} alt="Logo of Ournsfas" className="md:w-40 w-20" />
           </Link>
         </motion.div>
 
