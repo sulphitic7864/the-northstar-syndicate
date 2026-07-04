@@ -23,7 +23,7 @@ const funds = [
 ];
 
 export default function PrivateWealth() {
-     const items = Array(10).fill("Build wealth with The NorthStar Syndicate");
+  const items = Array(10).fill("Build wealth with The NorthStar Syndicate");
   return (
     <section className="bg-black text-white py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -109,7 +109,7 @@ export default function PrivateWealth() {
           </motion.div>
 
           {/* RIGHT SIDE CARD */}
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, x: 80 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -120,12 +120,15 @@ export default function PrivateWealth() {
             }}
             className="
               bg-[#080b14]
-              p-5
-              md:p-12
-              lg:p-16
+              
             "
           >
-            {funds.map((fund, index) => (
+            <img
+              src="/about-datacenter-new.png"
+              alt="Modern enterprise data center supporting cloud computing and AI infrastructure"
+              className="w-full max-w-xl h-[500px] object-cover rounded-lg shadow-lg"
+            />
+            {/* {funds.map((fund, index) => (
               <div key={index}>
                 <div className="group flex items-start justify-between gap-6 py-8">
                   <h3
@@ -176,43 +179,43 @@ export default function PrivateWealth() {
                   <div className="h-px bg-white/20" />
                 )}
               </div>
-            ))}
-          </motion.div> */}
+            ))} */}
+          </motion.div>
         </div>
       </div>
 
- <section className="bg-black py-20 overflow-hidden">
-      <Swiper
-  modules={[Autoplay]}
-  slidesPerView="auto"
-  spaceBetween={50}
-  loop
-  allowTouchMove={false}
-  speed={20000} // 20 seconds
-  autoplay={{
-    delay: 0,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: false,
-  }}
-  className="marquee-swiper"
->
-  {Array(12)
-    .fill("Build wealth with The NorthStar Syndicate")
-    .map((text, index) => (
-      <SwiperSlide key={index} className="!w-auto">
-        <h1 className="text-[50px] md:text-[100px] font-serif text-white whitespace-nowrap">
-          {text}
-        </h1>
-      </SwiperSlide>
-    ))}
-</Swiper>
+      <section className="bg-black py-20 overflow-hidden">
+        <Swiper
+          modules={[Autoplay]}
+          slidesPerView="auto"
+          spaceBetween={50}
+          loop
+          allowTouchMove={false}
+          speed={20000} // 20 seconds
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: false,
+          }}
+          className="marquee-swiper"
+        >
+          {Array(12)
+            .fill("Build wealth with The NorthStar Syndicate")
+            .map((text, index) => (
+              <SwiperSlide key={index} className="!w-auto">
+                <h1 className="text-[50px] md:text-[100px] font-serif text-white whitespace-nowrap">
+                  {text}
+                </h1>
+              </SwiperSlide>
+            ))}
+        </Swiper>
 
-      {/* <p className="text-white text-sm mt-10 md:ml-10 ml-2">
+        {/* <p className="text-white text-sm mt-10 md:ml-10 ml-2">
         Investing involves risks, including loss of capital
       </p> */}
-    </section>
+      </section>
 
-    
+
     </section>
   );
 }

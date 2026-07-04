@@ -44,7 +44,7 @@ function AboutFirm() {
         className="mt-16 w-full overflow-hidden"
       >
         <img
-          src="/aboutimg.jpg"   // put image in public folder
+          src="/datacenter-persons.png"   // put image in public folder
           alt="About Firm"
           className="w-full h-[400px] md:h-[550px] object-cover"
         />

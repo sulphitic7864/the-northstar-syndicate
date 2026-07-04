@@ -36,7 +36,7 @@ export default function AboutFirm() {
             </h3>
 
             <p className="md:text-base text-sm leading-[2] text-gray-500">
-We deliver the infrastructure needed to power tomorrow's technology. Data Centers are our main priority. The NorthStar Syndicate makes sure Cloud Computing, AI, and Large Language Model Companies have the latency needed to deliver better quality to the end user by building a house for Colocations and Hyperscalers. We are the compass to success.            </p>
+              We deliver the infrastructure needed to power tomorrow's technology. Data Centers are our main priority. The NorthStar Syndicate makes sure Cloud Computing, AI, and Large Language Model Companies have the latency needed to deliver better quality to the end user by building a house for Colocations and Hyperscalers. We are the compass to success.            </p>
 
 
             {/* Learn More */}
@@ -53,29 +53,11 @@ We deliver the infrastructure needed to power tomorrow's technology. Data Center
 
           {/* Right Side */}
           <div className="flex flex-col justify-start lg:items-start">
-            {/* <h3
-              className="
-                text-[90px]
-                md:text-[110px]
-                font-light
-                leading-none
-              "
-            >
-              $1.3T
-            </h3>
-
-            <h4 className="md:text-3xl text-2xl font-light mt-6">
-              Assets Under Management
-            </h4>
-
-            <p className="text-sm text-black/70 mt-5 max-w-sm md:leading-8">
-              All figures as of March 31, 2026,
-              unless otherwise indicated.
-            </p>
-
-            <p className="text-sm text-black/70 mt-8">
-              [1] As of December 31, 2025.
-            </p> */}
+            <img
+              src="/about-datacenter.png"
+              alt="Modern enterprise data center supporting cloud computing and AI infrastructure"
+              className="w-full max-w-xl h-[500px] object-cover rounded-lg shadow-lg"
+            />
           </div>
 
         </div>
