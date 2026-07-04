@@ -41,12 +41,12 @@ function Footer() {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-14">
             {/* Brand */}
             <motion.div variants={footerItem}>
-              {/* <h2 className="text-3xl font-light tracking-wide">
-                Build with <br /> &nbsp; &nbsp;<span className="font-semibold">The NorthStar Syndicate</span>
-              </h2> */}
               <img src={logo} alt="Logo of Ournsfas" className="md:w-40 w-20" />
+              <h2 className="text-3xl font-light mt-5">
+                <span className="font-semibold">The NorthStar Syndicate</span>
+              </h2>
 
-              <p className="text-gray-400 text-sm leading-7 mt-6 max-w-sm">
+              <p className="text-gray-400 text-sm leading-7  max-w-sm">
                 Building long-term value through innovation, strategic
                 investments, and world-class execution.
               </p>
@@ -85,7 +85,7 @@ function Footer() {
               </h3>
 
               <div className="space-y-4 text-gray-400">
-                <p>pressinquiries@thenorthstarsyndicate.com.</p>
+                <p>info@thenorthstarsyndicate.com.</p>
                 {/* <p>+1 (212) 583-5000</p> */}
                 {/* <p>New York, United States</p> */}
               </div>

@@ -92,10 +92,10 @@ const AuthPage = ({ isOpen, onClose, defaultMode = "login" }) => {
                     <p className="text-gray-600 leading-8">
                       For press inquiries, contact{" "}
                       <a
-                        href="mailto:pressinquiries@thenorthstarsyndicate.com"
+                        href="mailto:info@thenorthstarsyndicate.com"
                         className="text-black underline underline-offset-4"
                       >
-                        pressinquiries@thenorthstarsyndicate.com
+                        info@thenorthstarsyndicate.com
                       </a>
                       .
                     </p>
