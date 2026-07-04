@@ -42,7 +42,7 @@ function Footer() {
             {/* Brand */}
             <motion.div variants={footerItem}>
               <img src={logo} alt="Logo of Ournsfas" className="md:w-40 w-20" />
-              <h2 className="text-3xl font-light mt-5">
+              <h2 className="text-2xl font-light mt-5">
                 <span className="font-semibold">The NorthStar Syndicate</span>
               </h2>
 
