@@ -114,7 +114,7 @@ export default function OurValues() {
                   onClick={() => setPlayVideo(true)}
                   className="absolute bottom-8 right-8 w-20 h-20 rounded-full bg-white text-black flex items-center justify-center shadow-xl hover:scale-110 transition-all duration-300"
                 >
-                  <FiPlay size={28} />
+                  <FiPlay size={28} /> 
                 </button>
               </>
             ) : (
