@@ -10,7 +10,7 @@ import "swiper/css";
 //   {
 //     id: 1,
 //     video: "https://www.w3schools.com/html/mov_bbb.mp4",
-//     title: "Celebrating 40 Years at The NorthStar Syndicate",
+//     title: "Celebrating at The NorthStar Syndicate",
 //     description:
 //       "The NorthStar Syndicate Chairman, CEO & Co-Founder Steve Schwarzman and President & COO Jon Gray interview each other on The NorthStar Syndicate's past, present and future.",
 //   },
@@ -32,24 +32,21 @@ import "swiper/css";
 const slides = [
   {
     id: 1,
-    video:
-      "https://players.brightcove.net/5843213364001/R9lfdXjDx_default/index.html?videoId=6382749368112",
-    title: "Celebrating 40 Years at The NorthStar Syndicate",
+    video: "/public/vid_1.mp4",
+    title: "Celebrating at The NorthStar Syndicate",
     description:
       "The NorthStar Syndicate Chairman, CEO & Co-Founder Steve Schwarzman and President & COO Jon Gray interview each other on The NorthStar Syndicate's past, present and future.",
   },
   {
     id: 2,
-    video:
-      "https://players.brightcove.net/5843213364001/R9lfdXjDx_default/index.html?videoId=6374391871112",
+    video: "/public/vid_2.mp4",
     title: "Investing For The Future",
     description:
       "Discover how The NorthStar Syndicate continues to invest in transformative opportunities around the world.",
   },
   {
     id: 3,
-    video:
-       "https://players.brightcove.net/5843213364001/R9lfdXjDx_default/index.html?videoId=6382749368112",
+    video: "/public/vid_3.mp4",
     title: "Creating Long-Term Value",
     description:
       "Our focus remains on delivering value through innovation, scale and operational excellence.",
@@ -81,7 +78,7 @@ export default function HeroSlider() {
           The NorthStar Syndicate
         </h2>
         <p className="md:text-xl text-base font-normal text-gray-400">
-          The NorthStar Syndicate is the world’s #1 alternative asset manager{" "}
+          The NorthStar Syndicate is the alternative asset manager{" "}
         </p>
       </div>
       <div className="bg-black text-white min-h-screen mt-10">
@@ -106,7 +103,7 @@ export default function HeroSlider() {
               <div>
                 {/* VIDEO */}
                 <div className="relative h-[55vh] md:h-[85vh] overflow-hidden w-full">
-                  
+
                   <div className="relative h-[85vh] md:h-[98vh] w-full ">
                     <iframe
                       src={slide.video}
@@ -163,11 +160,10 @@ export default function HeroSlider() {
                           <button
                             key={index}
                             onClick={() => swiperRef.current?.slideTo(index)}
-                            className={`rounded-full transition-all duration-300 ${
-                              activeIndex === index
-                                ? "w-3 h-3 bg-white"
-                                : "w-3 h-3 bg-white/30"
-                            }`}
+                            className={`rounded-full transition-all duration-300 ${activeIndex === index
+                              ? "w-3 h-3 bg-white"
+                              : "w-3 h-3 bg-white/30"
+                              }`}
                           />
                         ))}
                       </div>

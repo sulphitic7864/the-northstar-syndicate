@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Loader() {
   const bubbles = Array.from({ length: 40 });
-  const text = "Build with The NorthStar Syndicate";
+  const text = "The NorthStar Syndicate";
 
   const letterVariants = {
     hidden: (i) => ({

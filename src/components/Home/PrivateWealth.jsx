@@ -23,7 +23,7 @@ const funds = [
 ];
 
 export default function PrivateWealth() {
-  const items = Array(10).fill("Build wealth with The NorthStar Syndicate");
+  const items = Array(10).fill("The NorthStar Syndicate");
   return (
     <section className="bg-black text-white py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -200,7 +200,7 @@ export default function PrivateWealth() {
           className="marquee-swiper"
         >
           {Array(12)
-            .fill("Build wealth with The NorthStar Syndicate")
+            .fill("The NorthStar Syndicate")
             .map((text, index) => (
               <SwiperSlide key={index} className="!w-auto">
                 <h1 className="text-[50px] md:text-[100px] font-serif text-white whitespace-nowrap">

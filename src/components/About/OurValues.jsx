@@ -119,7 +119,7 @@ export default function OurValues() {
               </>
             ) : (
               <iframe
-                src="https://players.brightcove.net/5843213364001/default_default/index.html?videoId=5976452467001&autoplay=true"
+                src="public/vid_4.mp4"
                 allow="autoplay; fullscreen"
                 allowFullScreen
                 className="w-full h-full"
