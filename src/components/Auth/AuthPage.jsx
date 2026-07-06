@@ -97,11 +97,10 @@ const AuthPage = ({ isOpen, onClose, defaultMode = "login" }) => {
                       >
                         info@thenorthstarsyndicate.com
                       </a>
-                      .
                     </p>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <a
                       href="#"
                       className="group inline-flex items-center gap-3 text-black text-lg"
@@ -114,7 +113,7 @@ const AuthPage = ({ isOpen, onClose, defaultMode = "login" }) => {
                         →
                       </span>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
