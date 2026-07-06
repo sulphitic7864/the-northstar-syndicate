@@ -210,19 +210,19 @@ export default function HeroSlider() {
                       <FiPlay />
                     </span>
                   </button> */}
-                    <button
+                    {/* <button
                       onClick={() => {
                         setSelectedVideo(slide.video);
                         setIsModalOpen(true);
                       }}
                       className="flex items-center gap-5 mt-12 group"
                     >
-                      {/* <span className="text-xl">Watch Now</span> */}
+                      <span className="text-xl">Watch Now</span>
 
                       <span className="w-14 h-14 border border-white rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-black transition">
                         <FiPlay />
                       </span>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
