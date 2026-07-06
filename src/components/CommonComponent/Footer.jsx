@@ -85,7 +85,7 @@ function Footer() {
               </h3>
 
               <div className="space-y-4 text-gray-400">
-                <p>info@thenorthstarsyndicate.com.</p>
+                <p>info@thenorthstarsyndicate.com</p>
                 {/* <p>+1 (212) 583-5000</p> */}
                 {/* <p>New York, United States</p> */}
               </div>

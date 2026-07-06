@@ -106,7 +106,7 @@ export default function ClientsSection() {
         </div>
 
         {/* Bottom Note */}
-        <div className="mt-16 text-sm font-normal text-gray-600 leading-6">
+        {/* <div className="mt-16 text-sm font-normal text-gray-600 leading-6">
           <p className="font-medium mb-4">
             <span className="text-black text-base">Note:</span> All figures as of March 31, 2026, unless otherwise indicated.
           </p>
@@ -120,7 +120,7 @@ export default function ClientsSection() {
             3. Reflects assets under management from the private wealth channel
             across The NorthStar Syndicate funds.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

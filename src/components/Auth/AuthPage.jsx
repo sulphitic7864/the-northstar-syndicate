@@ -79,9 +79,9 @@ const AuthPage = ({ isOpen, onClose, defaultMode = "login" }) => {
                       offices page.
                     </p>
 
-                    <p className="mt-4 text-black font-medium">
+                    {/* <p className="mt-4 text-black font-medium">
                       Switchboard: +1 (212) 583-5000
-                    </p>
+                    </p> */}
                   </div>
 
                   <div>
