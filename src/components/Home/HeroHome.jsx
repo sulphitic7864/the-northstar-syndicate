@@ -33,7 +33,7 @@ const slides = [
   {
     id: 1,
     video: "/public/vid_1.mp4",
-    title: "Celebrating at The NorthStar Syndicate",
+    title: "The NorthStar Syndicate",
     description: ""
   },
   {
@@ -217,7 +217,7 @@ export default function HeroSlider() {
                       }}
                       className="flex items-center gap-5 mt-12 group"
                     >
-                      <span className="text-xl">Watch Now</span>
+                      {/* <span className="text-xl">Watch Now</span> */}
 
                       <span className="w-14 h-14 border border-white rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-black transition">
                         <FiPlay />
