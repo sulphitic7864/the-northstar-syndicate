@@ -59,17 +59,14 @@ export default function WhatWeDo() {
               transition={{ duration: 0.8 }}
               className="md:text-3xl text-xl lg:text-5xl leading-9 font-light text-gray-200 "
             >
-              At The NorthStar Syndicate, we deliver for investors by building businesses
-              that power tomorrow's economy.
+              At The NorthStar Syndicate, we deliver for Data Center operators by building edge data centers that power tomorrow's cloud computing, AI and LLM technology.
             </motion.h2>
 
 
         {/* Main Content */}
-        <div className="grid lg:grid-cols-2 gap-20">
-          {/* Left Side */}
+        {/* <div className="grid lg:grid-cols-2 gap-20">
           <div className="flex flex-col justify-between">
             
-            {/* Image */}
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +85,6 @@ export default function WhatWeDo() {
             </motion.div>
           </div>
 
-          {/* Right Side */}
           <div className="flex flex-col justify-center space-y-16">
             {items.map((item, index) => (
               <motion.div
@@ -109,7 +105,7 @@ export default function WhatWeDo() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

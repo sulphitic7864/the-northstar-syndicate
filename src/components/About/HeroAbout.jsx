@@ -27,11 +27,11 @@ function AboutFirm() {
           viewport={{ once: true }}
           className="md:w-[45%] text-sm md:text-base text-gray-600 leading-relaxed"
         >
-          The NorthStar Syndicate is the world’s largest alternative asset manager, with more than
+          {/* The NorthStar Syndicate is the world’s largest alternative asset manager, with more than
           $1.3 trillion in AUM. We serve institutional and individual investors by
           building strong businesses that deliver lasting value. Our scale – with ~12,500
           real estate assets and 250 portfolio companies – enables us to invest in dynamic
-          sectors positioned for long-term growth.
+          sectors positioned for long-term growth. */}
         </motion.p>
       </div>
 

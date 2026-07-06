@@ -34,8 +34,7 @@ const slides = [
     id: 1,
     video: "/public/vid_1.mp4",
     title: "Celebrating at The NorthStar Syndicate",
-    description:
-      "The NorthStar Syndicate Chairman, CEO & Co-Founder Steve Schwarzman and President & COO Jon Gray interview each other on The NorthStar Syndicate's past, present and future.",
+    description: ""
   },
   {
     id: 2,
@@ -78,7 +77,7 @@ export default function HeroSlider() {
           The NorthStar Syndicate
         </h2>
         <p className="md:text-xl text-base font-normal text-gray-400">
-          The NorthStar Syndicate is the alternative asset manager{" "}
+          The compass to greatness.{" "}
         </p>
       </div>
       <div className="bg-black text-white min-h-screen mt-10">

@@ -10,8 +10,8 @@ function AboutUs() {
     <div className="mt-20">
       <HeroAbout />
       <WhatWeDo/>
-      <ClientsSection/>
-      <CeoReview/>
+      {/* <ClientsSection/> */}
+      {/* <CeoReview/> */}
       <OurValues/>
     </div>
   );

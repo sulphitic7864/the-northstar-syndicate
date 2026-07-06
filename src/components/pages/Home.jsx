@@ -19,9 +19,9 @@ function Home() {
       <PrivateWealth/>
       <HeroAbout/>
       <WhatWeDo/>
-      <CeoReview/>
+      {/* <CeoReview/> */}
       <OurValues/>
-      <ClientsSection/>
+      {/* <ClientsSection/> */}
       {/* <EarningsSection/> */}
       {/* <FeaturedStories/> */}
       {/* <NewsletterSection/> */}

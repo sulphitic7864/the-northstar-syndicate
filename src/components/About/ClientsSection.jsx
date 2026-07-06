@@ -35,7 +35,6 @@ export default function ClientsSection() {
   return (
     <section className="bg-[#f5f5f5] min-h-screen py-20">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Top Label */}
         <div className="flex items-center gap-5 mb-16">
           <span className=" text-base uppercase tracking-[2px] text-black">
             Who Does The NorthStar Syndicate Serve
@@ -44,7 +43,6 @@ export default function ClientsSection() {
           <div className="w-12 h-px bg-black"></div>
         </div>
 
-        {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +53,6 @@ export default function ClientsSection() {
           Our Clients
         </motion.h2>
 
-        {/* Accordion */}
         <div className="border-t border-black">
           {clientsData.map((item, index) => (
             <div
