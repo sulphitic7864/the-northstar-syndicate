@@ -73,7 +73,7 @@ export default function HeroSlider() {
     <div className="p-[5%]">
       <div className="flex items-center justify-between lg:flex-row flex-col lg:gap-0 gap-5">
         <h2 className="md:text-4xl text-2xl font-medium text-white capitalize">
-          <span className="font-bold">Build</span> with <br /> &nbsp; &nbsp;
+          {/* <span className="font-bold">Build</span> with <br /> &nbsp; &nbsp; */}
           The NorthStar Syndicate
         </h2>
         <p className="md:text-xl text-base font-normal text-gray-400">
