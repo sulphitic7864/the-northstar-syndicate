@@ -66,9 +66,9 @@ export default function OurValues() {
         </motion.h2>
         <div className="flex items-center justify-center">
           <button className="group flex items-center justify-center gap-5 md:mt-16 mt-5">
-            <span className="md:text-xl text-sm text-gray-600">
+            <a href="/" className="md:text-xl text-sm text-gray-600">
               Learn More About Our People
-            </span>
+            </a>
 
             <span className="w-12 h-12 rounded-full border border-black flex items-center justify-center transition-all duration-300 group-hover:bg-black group-hover:text-white">
               →
@@ -118,8 +118,10 @@ export default function OurValues() {
                 </button>
               </>
             ) : (
-              <iframe
-                src="public/vid_4.mp4"
+              <video
+                src="/vid_4.mp4"
+                controls
+                autoPlay
                 allow="autoplay; fullscreen"
                 allowFullScreen
                 className="w-full h-full"

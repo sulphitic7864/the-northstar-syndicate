@@ -32,23 +32,21 @@ import "swiper/css";
 const slides = [
   {
     id: 1,
-    video: "/public/vid_1.mp4",
+    video: "/vid_1.mp4",
     title: "The NorthStar Syndicate",
-    description: ""
+    description: "",
   },
   {
     id: 2,
-    video: "/public/vid_2.mp4",
+    video: "/vid_2.mp4",
     title: "Investing For The Future",
-    description:
-      "Discover how The NorthStar Syndicate continues to invest in transformative opportunities around the world.",
+    description: "Discover how The NorthStar Syndicate continues to invest in transformative opportunities around the world.",
   },
   {
     id: 3,
-    video: "/public/vid_3.mp4",
+    video: "/vid_3.mp4",
     title: "Creating Long-Term Value",
-    description:
-      "Our focus remains on delivering value through innovation, scale and operational excellence.",
+    description: "Our focus remains on delivering value through innovation, scale and operational excellence.",
   },
 ];
 
@@ -104,12 +102,22 @@ export default function HeroSlider() {
                 <div className="relative h-[55vh] md:h-[85vh] overflow-hidden w-full">
 
                   <div className="relative h-[85vh] md:h-[98vh] w-full ">
-                    <iframe
+                    {/* <iframe
                       src={slide.video}
                       className="w-full h-full"
                       allow="autoplay; fullscreen"
                       allowFullScreen
-                    />
+                    /> */}
+
+                    <video
+  src={slide.video}
+  className="w-full h-full object-cover"
+  autoPlay
+  muted
+  loop
+  playsInline
+  controls
+/>
                   </div>
 
                   {/* Top Right Play Button */}

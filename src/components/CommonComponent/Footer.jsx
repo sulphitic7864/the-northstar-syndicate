@@ -7,6 +7,18 @@ import { motion } from "framer-motion";
 import logo from "/MainLogo.jpeg";
 
 function Footer() {
+
+  const socialLinks = [
+  {
+    icon: FaInstagram,
+    url: "https://www.instagram.com/thenorthstarsyndicate?igsh=MWdmaTk0MGptdGlpcw%3D%3D&utm_source=qr",
+  },
+  {
+    icon: FaLinkedinIn,
+    url: "https://www.linkedin.com/in/eberle-adhemar-463967156?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+  },
+]; 
+
   const footerContainer = {
     hidden: { opacity: 0 },
     visible: {
@@ -92,23 +104,20 @@ function Footer() {
 
               {/* Social Icons */}
               <div className="flex gap-4 mt-10">
-                {[
-                  // FaFacebookF,
-                  FaInstagram,
-                  FaLinkedinIn,
-                  // FaXTwitter,
-                ].map((Icon, index) => (
-                  <motion.a
-                    key={index}
-                    href="#"
-                    whileHover={{
-                      y: -3,
-                    }}
-                    className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center text-white hover:border-white transition-all duration-300"
-                  >
-                    <Icon size={16} />
-                  </motion.a>
-                ))}
+                {
+                  socialLinks.map(({ icon: Icon, url }, index) => (
+                    <motion.a
+                      key={index}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ y: -3 }}
+                      className="w-11 h-11 rounded-full border border-white/20 flex items-center justify-center text-white hover:border-white transition-all duration-300"
+                    >
+                      <Icon size={16} />
+                    </motion.a>
+                  ))
+                }
               </div>
             </motion.div>
           </div>
