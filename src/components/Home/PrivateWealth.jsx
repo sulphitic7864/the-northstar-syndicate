@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
+import { NavLink } from "react-router-dom";
 
 const funds = [
   {
@@ -81,6 +82,7 @@ export default function PrivateWealth() {
                 The buildings The NorthStar Syndicate create are for the Hyperscalers and Colocation Companies. We have data centers available for you.
               </p>
               {/* Learn More */}
+              <NavLink to="/about-us" className="">
               <button className="group flex items-center gap-6 md:mt-16 mt-10">
                 <span className="md:text-3xl text-xl font-light">
                   Learn More
@@ -105,6 +107,7 @@ export default function PrivateWealth() {
                   <FiArrowRight size={20} />
                 </span>
               </button>
+              </NavLink>
             </div>
           </motion.div>
 

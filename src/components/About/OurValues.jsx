@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { FiPlay } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
 
 const items = [
   {
@@ -65,15 +66,15 @@ export default function OurValues() {
           our character and culture.
         </motion.h2>
         <div className="flex items-center justify-center">
+            <NavLink to="/about-us" className="md:text-xl text-sm text-gray-600">
           <button className="group flex items-center justify-center gap-5 md:mt-16 mt-5">
-            <a href="/" className="md:text-xl text-sm text-gray-600">
               Learn More About Our People
-            </a>
 
             <span className="w-12 h-12 rounded-full border border-black flex items-center justify-center transition-all duration-300 group-hover:bg-black group-hover:text-white">
               →
             </span>
           </button>
+            </NavLink>
         </div>
 
         {/* Right Side */}

@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function AboutFirm() {
   return (
     <section className="bg-[#f5f5f5] py-28">
@@ -40,6 +42,7 @@ export default function AboutFirm() {
 
 
             {/* Learn More */}
+            <NavLink to="/about-us" className="md:text-xl text-sm text-gray-600">
             <button className="group flex items-center gap-5 md:mt-16 mt-5">
               <span className="text-2xl">
                 Learn More
@@ -49,6 +52,7 @@ export default function AboutFirm() {
                 →
               </span>
             </button>
+            </NavLink>
           </div>
 
           {/* Right Side */}
